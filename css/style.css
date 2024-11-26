@@ -1,0 +1,721 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(172, 133, 86, 0.9);
+    position: fixed;
+    z-index: 20;
+    box-shadow: 0 3px 4px 0 rgba(150, 125, 67, 0.5)  ;
+}
+.header img{height: 60px;
+  width:  90px;
+  
+    margin-left:80px;
+    float: left;
+}
+.header-input{
+    margin-top: 12px; 
+    margin-left: 40px;
+    width: 210px;
+    height: 30px;
+    border-radius: 24px;
+    padding-left: 30px;
+}
+.header-icon{
+    margin-left: -201px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.header ul{
+    float: right;
+    margin:15px 30px;
+}
+.header ul li{
+    display: inline-block;
+    margin-left:15px ;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(11, 12, 12);
+    text-transform: capitalize;
+}
+.ul-header{
+    position: relative;
+}
+.ul-header li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    top: 25px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+}
+.ul-header li:hover::after{
+    width: 100%;
+    height: 2px;
+    opacity: 1;
+    transition: 1s;
+}
+.about-ul{
+    list-style: none;
+    
+    position: absolute;
+    top: 7px;
+    left: -60px;
+    padding: 5px ;
+    background-color: aliceblue;
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+    display: none;
+}
+.about-ul li{
+    margin: 5px 0;
+}
+.ul-header .ablog li  {
+    position: relative;
+}
+ .ul-header li:hover .about-ul{
+    display:block;
+    
+}
+.search{
+    position: relative;
+}
+.header-icon{
+    position: absolute;
+    top: 0;
+}
+.divo{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-10\ at\ 01.02.39_00b162ba.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.home-overlay{
+    position: absolute;
+    background-color: rgba(223, 212, 211, 0.15);
+    width: 100%;
+    height: 100vh;
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
+    background-color: rgba(235, 239, 243,.3);
+    text-align: center;
+}
+.home-content:hover .homeh1{
+    color: rgb(52, 44, 23);
+    text-shadow:0 0 7px rgb(155, 98, 5);
+}
+.homeh1{
+    color: rgb(32, 24, 24);
+    font-size: 55px;
+    text-transform: capitalize;
+    margin:0px 10px;
+}
+.p-home{
+    line-height: 30px;
+    color: rgb(48, 42, 42);
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.home-btn{
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: black;
+    font-weight: bold;
+}
+.home-btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.home-btn:hover{
+    opacity: .6;
+    width: 102px;
+    height: 37px;
+
+}
+.sec2,.sec3{
+ 
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(254, 245, 232);
+    padding: 80px;
+   }
+   .sec2{padding: 10++
+    639.0px;}
+   .sec2h,.sec3h, .sec7h,.sec9h,.sec10h{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 6px rgb(155, 98, 5);
+   }
+   .sec2-line,.line2 ,.sec5-line ,.sec7-line,.line10{
+    width: 200px;
+    height: 3px;
+    margin: auto;
+    background-color: rgb(121, 77, 12);
+    margin-top: 5px;
+    margin-bottom: 100px;
+   }
+   .sec7-line{width: 380px;}
+   
+   .sec2-line{
+    margin-bottom: 130px;
+   }
+   .sec2 .ces2-card{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+   }
+   .cards2{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    float: left;
+    text-align: center;
+    padding: 15px;
+   }
+   .cdf  {
+    margin-left: 100px;
+}
+   .cds{
+    margin: 0px 40px;
+}
+   .icons{
+    font-size: 30px;
+    padding: 10px;
+    text-shadow: 0 0 6px rgb(155, 98, 5);
+   }
+   .sec2-h3{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+    text-shadow: 0 0 2px rgb(155, 98, 5);
+   }
+   .sec2-p{
+    color: rgb(84, 83, 83);
+    font-weight: bold;
+    margin-bottom: 20px;
+   }
+   .sec2-a{
+   font-size: 20px;
+   font-weight: bold ;
+   color:  rgb(155, 98, 5);
+   position: relative;
+   z-index: 2;
+   }
+   
+   .cards2:after{
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    background-color: black;
+    z-index: 1;
+   }
+   .cards2:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    opacity: .2;
+   }
+   .sec3{
+    text-align: center;
+    background:linear-gradient( rgb(254, 245, 232) 75%,black);
+    padding-top:60px ;
+   }
+   .line2{
+    margin-bottom: 50px;
+   }
+   .sec3-card{
+    position: relative;
+    width: 300px;
+    float: left;
+    margin-bottom: 40px;
+    height: 230px;
+    padding: 25px;
+}
+   .sec3-card1,.sec3-card4{
+    margin-left: 200px;
+   }
+   .sec3-card1,.sec3-card2,.sec3-card3,.sec3-card4,.sec3-card5,.sec3-card6{
+    background-size: cover;
+   }
+   .sec3-card1{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-12\ at\ 11.19.08_b0a57df0.jpg);
+   }
+   .sec3-card2{
+     background-image: url(../image/WhatsApp\ Image\ 2024-11-12\ at\ 11.15.04_841288db.jpg);
+  
+     margin: 0px 40px;
+}
+   .sec3-card3
+   {background-image: url(../image/WhatsApp\ Image\ 2024-11-12\ at\ 11.15.04_849a5d30.jpg);
+  
+    }
+   .sec3-card4{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-12\ at\ 11.15.04_6f2c8e94.jpg);
+   }
+   .sec3-card5{background: url(../image/WhatsApp\ Image\ 2024-11-12\ at\ 11.15.04_38cba82e.jpg); 
+    margin: 0px 40px;
+    background-size: cover;
+   }
+   .sec3-card6{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-12\ at\ 13.03.48_735bd11e.jpg);
+   }
+   .sec3p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+    font-size: 25px;
+    z-index: 2;
+    position: relative;
+    visibility: hidden;
+   }
+   .sec3-icon{
+    background-color: rgb(172, 141, 49);
+    color: rgb(81, 72, 72);
+    font-size: 25px;
+    z-index: 2;
+    position: relative;
+    visibility: hidden;
+    border-radius: 5px;
+    width: 40px;
+    height: 35px;
+    padding: 5px;
+}
+.sec3-card::after{
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgb(90, 87, 87);
+   }
+   .sec3-card:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+   }
+   .sec3-card:hover .sec3p {
+    visibility: visible;
+   }
+   .sec3-card:hover .sec3-icon {
+    visibility: visible;
+   }
+   .sec3-icon:hover{
+    background-color: aliceblue;
+}
+   .sec4{
+   background-image: url(../image/WhatsApp\ Image\ 2024-11-02\ at\ 22.12.51_4cc6c6d4.jpg);
+    height: 100vh;
+    padding-top: 80px;
+     text-align: center;
+    color: rgb(198, 195, 160);
+    text-transform: uppercase;
+}
+.sec4-h{
+    text-align: center;
+    color: rgb(220, 161, 89);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.sec4-h:hover{
+    color: aliceblue;
+    text-shadow: 0 0 7px  rgb(172, 133, 86);
+}
+.sec4-line{
+    width: 230px;
+    height: 3px;
+    background-color: rgb(195, 140, 73);
+    margin: auto;
+    margin-bottom: 50px;
+}
+.sic4-card{
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(47, 48, 39);
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.div1{
+    margin-left: 350px;
+}
+.div4{
+    margin-left: 350px;
+}
+.tool{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(220, 161, 89);
+}
+SPAN{
+    text-align: center;
+    font-size: 30PX;
+    margin-left: 20px;
+    font-weight: bold;
+    color:rgb(220, 161, 89);
+}
+.sec4-p{
+    
+        margin-top: 20PX;
+        color:rgb(195, 140, 73);
+        padding: 20PX;
+        font-weight: bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+ .div1:hover{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-02\ at\ 22.05.40_1b133a84.jpg);
+    transition: 1s;
+}
+ .div2:hover{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-02\ at\ 22.05.28_52e71478.jpg);
+}
+ .div3:hover{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-02\ at\ 22.05.28_cffcfad4.jpg);
+}
+ .div4:hover{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-02\ at\ 22.05.39_9ddbda65.jpg);
+}
+ .div5:hover{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-02\ at\ 22.05.40_1b133a84.jpg);
+ }
+ .div6:hover{ background-image: url(../image/WhatsApp\ Image\ 2024-11-02\ at\ 22.05.39_1ba9561c.jpg);
+ }
+ .sic4-card:hover .sec4-p {
+    color: white;
+    opacity: 0;
+ }
+.sic4-card:hover span {
+    color: aliceblue;
+}
+.sic4-card:hover .tool{
+    color: aliceblue;
+}
+.sec5{
+     width: 100%;
+    height: 100vh;background:linear-gradient(black 1%,rgb(254, 245, 232)50%,rgb(254, 245, 232)40%,rgb(254, 245, 232)9%); 
+    
+    padding: 190px 80px;
+}
+.sec5-content{
+width: 70%;
+float: left;
+}
+.sec5-h2 {
+    color: black ;
+    font-size: 50px;
+    text-shadow: 0 0 7px rgb(172, 133, 86);
+}
+.sec5-line{
+    margin: 5px 0 80px 5px;
+}
+.sec5-p{
+    font-size: 20px;
+    color: rgb(136, 102, 61);
+   margin-bottom:40px;
+   font-weight: bold;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec5-icon{
+    background-color:rgb(136, 102, 61) ;
+    color: rgb(254, 245, 232);
+}
+.sec5-img{
+ float: left;
+ margin: 60px 0 0 30px;
+}
+.sec5-ul{
+  text-align: center;
+}
+.sec5-li{
+display: inline-block;
+width: 13px;
+height: 13px;
+border-radius: 50%;
+font-size: 50px;
+background-color: rgb(65, 60, 53);
+margin: 7px 3px;
+}
+.active{
+    background-color:rgb(172, 133, 86) ;
+}
+.sec5-li:hover{
+    background-color:rgb(172, 133, 86) ;
+}
+.sec6, .sec8{
+    background-image: url(../image/WhatsApp\ Image\ 2024-11-18\ at\ 15.22.11_5ab7945e.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    
+}
+.sec6-content,.sec8-content{
+    background-color: rgba(230, 224, 217, 0.1);
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+}
+.sec6-card{
+    margin-top: 70px;
+    padding: 80px;
+    width: 25%;
+    height: 300px;
+    float: left;
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+} 
+.fcard{
+    margin-left: 7%;
+}
+.scard{
+    margin-left: 7.5%;
+}
+.sec7,.sec9{
+    background-color: rgb(254, 245, 232);
+    height: 110vh;
+    padding: 90px;
+}
+.sec7-card{
+    width: 300px;
+    height: 350px;
+    border: solid 2px rgb(33, 39, 37);
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.sec7-h2{
+    margin: 10px 0;
+}
+.sec7-p2{
+    margin: 15px 0;
+}
+.circle1{
+    width: 90px;
+   height: 90px;
+   margin: 10px auto;
+   font-weight: bold    ;
+   border: solid 2px ;
+   border-radius: 50%;
+   padding: 12px;
+}
+.sec7-span{
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+}
+.s7s,.t7s, .f7s{margin-left: 1px;}
+.fces7-card{
+    margin-left: 170px;
+}
+.sces7-card{
+        margin: 0px 50px;
+}
+
+  .sec7-card  .btn1,.btn2,.btn3 {
+    margin-top:  15px;
+   cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.btn1.btn2,.btn3{
+    margin: 20px 0 10px 0;  font-size: 14px;
+}
+.btn3{
+    margin: 30px 0 10px 0;
+}
+ .sec7-card:hover{
+    background-color: black;
+    color:rgb(172, 133, 86);
+      width: 310px;
+    height: 360px;
+    border-radius: 10%;
+ }
+ .sec7-card:hover .circle1{
+    background-color:rgb(172, 133, 86);
+    color:black;
+ }
+ .sec7-card:hover .btn7{
+    background-color:rgb(172, 133, 86) ;
+    color: black;
+    font-size: 16px;
+ }
+ .title-8{
+    text-align: center;
+    color: rgb(254, 245, 232);
+    margin-top: 35px;
+    text-transform: uppercase;
+    background-color: rgba(233, 207, 175,.1);
+ }
+ .sec8-card{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    margin:100px 0 0 180px;
+ }
+ .img8{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-top: -10px;
+ }
+ .span8{
+    margin: 10px 30px 0 0px;
+    color: rgb(254, 245, 232);
+ }
+ .sp8{
+    color: rgb(188, 142, 85) ;
+}
+ .p8{
+    margin-top: 35px;
+    color:rgb(254, 245, 232) ;
+ }
+ .sec9card {
+    width: 350px;
+    height: 400px;
+    position: relative;
+    background-color: rgba(172, 133, 86,.5);
+    text-align: center;
+    margin-top: 100px;
+    float:left;
+    border-radius: 10px;
+    padding: 20px;
+ }
+ .fs9c{margin-left:10% ;}
+ .ss9c{margin: 100px 30px;}
+ 
+ .upper-div{
+    position: relative;
+ }
+ .upper-div img,.sec10{
+    width: 100%;
+ }
+ .upper-div  .overlay9 a{
+    width: 30px;
+    font-size: 28px;
+    color:black ;
+    background-color:rgb(172, 133, 86);
+    display: block;
+ }   
+ .overlay9{
+    position: absolute;
+    right: 0;
+    top: 0;
+   visibility: hidden;
+ }
+ .sec9h2,.sec9p{
+  font-size: 26px;
+  margin-top: 13px;
+ }
+ .sec9p{
+    color: rgb(57, 53, 42);
+ }
+ .sec9card::before,.sec10-card::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    background-color:rgb(90, 87, 87);
+   }
+   .sec9card:hover::before,.sec10-card:hover::before{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    opacity: .3;
+   }
+   .sec9card:hover .overlay9{
+    visibility: visible;
+   }
+   .sec10{
+    background-color:  rgb(254, 245, 232);
+    height: 110vh;
+   }
+   .sec10-card{
+    position: relative;
+    height: 450px;
+    width: 350px;
+    float:left;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 25px;
+}
+.fs10c{  margin-left: 13%;}
+.sec10-card span{
+    font-size: 23px;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+  }
+ .sec10-card img{
+    margin-bottom: 10px;
+   }
+   .sec10-card a{
+   
+     color: black;
+    margin-right: 3px;
+   }
+   .sec10-card h3,.sec10p{
+    margin: 16px 0;
+   }
+   .sec10-card .aa{
+    font-size: 20px;
+text-decoration: none;
+font-weight: bold;
+color: rgb(189, 149, 70);
+position: relative;
+z-index: 1;
+} 
+.final{
+    height: 45vh;
+    background-color:  rgb(144, 114, 76);
+    padding: 20px;
+}
+.final-sec{
+    width: 330px;
+    text-align: center;
+    margin: auto;
+}
+.final-sec a i {
+    background-color:  black;
+    color: rgb(172, 133, 86);
+    margin: 15px 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+ .final-sec img{border-radius: 10px;}
+.final-sec p{
+    text-transform: capitalize;
+}
